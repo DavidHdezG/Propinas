@@ -11,6 +11,9 @@ export default {
         'black':'#3D3D3D',
         'gray':'#C2C2C2',
         'disabled':'#E6E6E6',
+      },
+      fontFamily:{
+        'poppins':['Poppins', 'sans-serif']
       }
     },
   },

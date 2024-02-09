@@ -133,7 +133,7 @@ onMounted(async () => {
 </script>
 
 <template>
-  <MainLayout>
+  <MainLayout class="font-poppins">
     <div class="flex justify-around mt-8">
       <div class="flex flex-col items-center space-y-4">
         <div class="flex flex-col ">
