@@ -1,0 +1,19 @@
+@api = http://localhost:3000/api/tipPayments
+
+### GET {{api}}
+GET {{api}}
+
+###POST {{api}}
+POST {{api}}
+Content-Type: application/json
+
+{
+    "amount": "12300",
+    "method": "Efectivo",
+    "splitTip":"2"
+}
+
+### GET {{api}}
+GET http://localhost:3000/api/tipPayments/totalMoney
+### GET {{api}}
+GET {{api}}/totalTips
